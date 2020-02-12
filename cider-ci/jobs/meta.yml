@@ -104,14 +104,17 @@ jobs:
           # traits: [ fastest-executors ]
           scripts:
             test:
+              exclusive_executor_resource: 'app.leihs.legacy.assets.compilation'
               timeout: 10 Minutes
+              environment_variables:
+                LEIHS_LEGACY_DIR: "{{CIDER_CI_WORKING_DIR}}"
               body: |
                 set -eu
                 export PATH=./node_modules/.bin:~/.rubies/$RUBY/bin:$PATH
 
                 mv public/assets tmp/checked_in_assets
-                bundle exec rake app:i18n:po2json
-                bin/recompile-assets
+
+                cider-ci/bin/compile-assets-cached
 
                 # attach for easy local debugging:
                 mkdir -p tmp/attach && tar czf tmp/attach/assets.tar.gz public/assets
