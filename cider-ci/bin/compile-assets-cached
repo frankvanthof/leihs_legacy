@@ -5,7 +5,14 @@ set -euxo
 WORK_DIR="$LEIHS_LEGACY_DIR"
 
 ARTEFACT_NAME="leihs-legacy-assets"
-DIGEST="$(cd "$WORK_DIR" && git log -n 1 HEAD --pretty=%T)"
+# DIGEST="$(cd "$WORK_DIR" && git log -n 1 HEAD --pretty=%T)"
+DIGEST=`git ls-tree HEAD --\
+  app/assets \
+  node_modules package.json package-lock.json yarn.lock \
+  .postcssrc.yml .babelrc \
+  config Gemfile.lock database/Gemfile.lock \
+  cider-ci cider-ci.yml \
+| openssl dgst -sha1 | cut -d ' ' -f 2`
 
 ARTEFACT_DIR="./public/assets"                              # path of artefact *relative to* working dir
 LOCAL_CACHED_ARTEFACT="/tmp/${ARTEFACT_NAME}_${DIGEST}.tgz" # path of locally cached artefact
