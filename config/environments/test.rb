@@ -1,3 +1,13 @@
+require 'timecop'
+
+LEIHS_SPEC_FAKE_TIME = ENV['LEIHS_SPEC_FAKE_TIME']
+if LEIHS_SPEC_FAKE_TIME
+  fake_time = Time.parse(LEIHS_SPEC_FAKE_TIME)
+  Timecop.freeze(fake_time)
+  puts 'FAKE TIME set to: ' + LEIHS_SPEC_FAKE_TIME
+end
+
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
