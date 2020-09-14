@@ -30,7 +30,7 @@ class window.App.HandOverController extends Spine.Controller
 
   delegateEvents: =>
     super
-    App.Reservation.on "change destroy refresh", (data)=>
+    App.Order.on "change destroy refresh", (data)=>
       if data?.option_id? then @render(true) else do @fetchAvailability
 
     App.Reservation.on "update", (data)=>
