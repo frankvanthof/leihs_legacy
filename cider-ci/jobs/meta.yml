@@ -41,7 +41,7 @@ jobs:
                 export DISABLE_DATABASE_ENVIRONMENT_CHECK=1
                 pg_restore --schema-only ./features/personas/demo.pgbin
                 pg_restore --data-only ./features/personas/demo.pgbin
-                if test $(bundle exec rake db:migrate:status | grep -c -E "\s*down\s*\d*\s*") -gt 0; then
+                if bundle exec rake db:migrate:status | grep -q -E "\s*down\s*\d*\s*"; then
                   echo "run ./bin/migrate-and-dump-personas"
                   exit 1
                 else
@@ -69,7 +69,7 @@ jobs:
                 export DISABLE_DATABASE_ENVIRONMENT_CHECK=1
                 pg_restore --schema-only ./features/personas/demo.pgbin
                 pg_restore --data-only ./features/personas/demo.pgbin
-                if test $(bundle exec rake db:migrate:status | grep -c -E "\s*down\s*\d*\s*") -gt 0; then
+                if bundle exec rake db:migrate:status | grep -q -E "\s*down\s*\d*\s*"; then
                   echo "run ./bin/migrate-and-dump-demo"
                   exit 1
                 else
