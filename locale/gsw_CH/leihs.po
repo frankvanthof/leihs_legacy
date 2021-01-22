@@ -2956,11 +2956,8 @@ msgstr "Benutzer im noie Admin-Bereich aazeige"
 msgid "legacy_show_delegation_in_new_admin_section"
 msgstr "Delegation im noie Admin-Bereich aazeige"
 
-msgid "legacy_manage_users_new_admin_section_notice_1"
-msgstr "Benutzer und Zuegriff chönd au im "
+msgid "legacy_manage_users_new_admin_section_notice"
+msgstr "Benutzer und Zuegriff chönd au im noie Admin-Bereich verwaltet werde."
 
-msgid "legacy_manage_users_new_admin_section_notice_2"
-msgstr "noie Admin-Bereich"
-
-msgid "legacy_manage_users_new_admin_section_notice_3"
-msgstr " verwaltet werde."
+msgid "legacy_manage_entitlement_new_admin_section_notice"
+msgstr "Die Benutzer und Gruppene vo de Gruppe-Verteilig werde im noie Admin-Bereich verwaltet."

@@ -643,13 +643,10 @@ msgid "legacy_show_user_in_new_admin_section"
 msgstr "Mostrar usario en la nueva sección de Admin"
 
 msgid "legacy_show_delegation_in_new_admin_section"
-msgstr "Mostrar delegation en la nueva sección de Admin"
+msgstr "Mostrar delegación en la nueva sección de Admin"
 
-msgid "legacy_manage_users_new_admin_section_notice_1"
-msgstr "Los usuarios y sus derechos de acceso también se pueden manejar en "
+msgid "legacy_manage_users_new_admin_section_notice"
+msgstr "Los usuarios y sus derechos de acceso también se pueden manejar en la nueva sección Admin."
 
-msgid "legacy_manage_users_new_admin_section_notice_2"
-msgstr "la nueva sección Admin"
-
-msgid "legacy_manage_users_new_admin_section_notice_3"
-msgstr "."
+msgid "legacy_manage_entitlement_new_admin_section_notice"
+msgstr "Los usuarios y grupos de esta entitlement-group se manejan en la nueva sección Admin."

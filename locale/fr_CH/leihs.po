@@ -3381,11 +3381,8 @@ msgstr "Afficher utilisateur dans la nouvelle section d'Admin"
 msgid "legacy_show_delegation_in_new_admin_section"
 msgstr "Afficher délégation dans la nouvelle section d'Admin"
 
-msgid "legacy_manage_users_new_admin_section_notice_1"
-msgstr "Les utilisateurs et leurs droits d'accès peuvent également être gérés dans "
+msgid "legacy_manage_users_new_admin_section_notice"
+msgstr "Les utilisateurs et leurs droits d'accès peuvent également être gérés dans la nouvelle section d'Admin."
 
-msgid "legacy_manage_users_new_admin_section_notice_2"
-msgstr "la nouvelle section d'Admin"
-
-msgid "legacy_manage_users_new_admin_section_notice_3"
-msgstr "."
+msgid "legacy_manage_entitlement_new_admin_section_notice"
+msgstr "Les utilisateurs et groupes de cette entitlement-groupe sont gérés dans la nouvelle section d'Admin"

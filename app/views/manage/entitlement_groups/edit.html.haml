@@ -59,14 +59,8 @@
                 .col8of10
                   %a.white{href: "/admin/inventory-pools/#{@group.inventory_pool.id}/entitlement-groups/#{@group.id}"}<
                     %strong
-                      %a{href: "/admin/inventory-pools/#{@group.inventory_pool.id}/entitlement-groups/#{@group.id}/users/"}
-                        Manage users
-                      and
-                      %a{href: "/admin/inventory-pools/#{@group.inventory_pool.id}/entitlement-groups/#{@group.id}/groups/"}
-                        manage groups
-                      in the new
-                      %a{href: "/admin/inventory-pools/#{@group.inventory_pool.id}/entitlement-groups/#{@group.id}"}
-                        admin interface of this entitlement-group.
+                      = _("legacy_manage_entitlement_new_admin_section_notice")
+                .col1of10
 
 :coffeescript
 

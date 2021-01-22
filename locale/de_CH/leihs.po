@@ -3662,11 +3662,8 @@ msgstr "Benutzer im neuem Admin-Bereich anzeigen"
 msgid "legacy_show_delegation_in_new_admin_section"
 msgstr "Delegation im neuem Admin-Bereich anzeigen"
 
-msgid "legacy_manage_users_new_admin_section_notice_1"
-msgstr "Benutzer und Zugriffsrechte können auch im "
+msgid "legacy_manage_users_new_admin_section_notice"
+msgstr "Benutzer und Zugriffsrechte können auch im neuen Admin-Bereich bearbeitet werden."
 
-msgid "legacy_manage_users_new_admin_section_notice_2"
-msgstr "neuen Admin-Bereich"
-
-msgid "legacy_manage_users_new_admin_section_notice_3"
-msgstr " bearbeitet werden."
+msgid "legacy_manage_entitlement_new_admin_section_notice"
+msgstr "Die Benutzer und Gruppen dieser Anspruchsgruppe werden im neuen Admin-Bereich verwaltet."
