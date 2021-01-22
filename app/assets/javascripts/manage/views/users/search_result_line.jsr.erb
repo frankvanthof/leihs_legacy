@@ -56,12 +56,14 @@
           </li>
           {{/if}}
           {{else}}
+          {{if !isDelegation()}}
            <li>
             <a class='dropdown-item' href='/admin/users/{{>id}}'>
               <i class='fa fa-edit'></i>
               {{jed "legacy_show_user_in_new_admin_section"/}}
             </a>
           </li>
+          <%# NOTE: there is no "global" delegations view in new admin %>
           {{/if}}
           <li>
             <a class='dropdown-item' href='mailto:{{>email}}'>
