@@ -4720,7 +4720,7 @@ window.i18n.locale_data = {
       ],
       "A Group contains several users. These users can gain a role by assigning the role to their Group.": [
          null,
-         "Eine Gruppe enthält mehrere Benutzer. Diese Benutzer können eine Rolle kriegen, indem man ihrer Gruppe die entsprechende Rolle zuweist."
+         "Eine Gruppe enthält mehrere Benutzer. Diese Benutzer erhalten eine Rolle, indem eine Rolle der Gruppe zugeteilt wird."
       ],
       "To allocate models to users use the %s.": [
          null,

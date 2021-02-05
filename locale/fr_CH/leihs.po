@@ -3369,6 +3369,9 @@ msgstr "Date non valide"
 msgid "Start and end date cannot be in the past"
 msgstr "Date de début et de fin ne peut pas être dans le passé"
 
+msgid "To allocate models to users use the %s."
+msgstr "Pour attribuer des modèles aux utilisateurs, utilisez les %s."
+
 msgid "Expand All"
 msgstr "Développer Tout"
 

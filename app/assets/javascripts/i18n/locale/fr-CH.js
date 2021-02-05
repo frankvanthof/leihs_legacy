@@ -4476,6 +4476,10 @@ window.i18n.locale_data = {
          null,
          "Date de début et de fin ne peut pas être dans le passé"
       ],
+      "To allocate models to users use the %s.": [
+         null,
+         "Pour attribuer des modèles aux utilisateurs, utilisez les %s."
+      ],
       "Expand All": [
          null,
          "Développer Tout"

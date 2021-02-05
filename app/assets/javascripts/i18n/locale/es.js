@@ -903,6 +903,18 @@ window.i18n.locale_data = {
          null,
          "Fecha de inicio y fin no puede ser en el pasado"
       ],
+      "Manage user roles via Groups.": [
+         null,
+         "Manejo los roles de los usuarios a través de Grupos."
+      ],
+      "A Group contains several users. These users can gain a role by assigning the role to their Group.": [
+         null,
+         "Un grupo contiene varios usuarios. Estos usuarios pueden obtener un rol asignando el rol a su Grupo."
+      ],
+      "To allocate models to users use the %s.": [
+         null,
+         "Para asignar modelos a los usuarios use los %s."
+      ],
       "Expand All": [
          null,
          "Expandir Todo"

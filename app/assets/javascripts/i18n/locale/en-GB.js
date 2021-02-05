@@ -3675,6 +3675,18 @@ window.i18n.locale_data = {
          null,
          ""
       ],
+      "Manage user roles via Groups.": [
+         null,
+         ""
+      ],
+      "A Group contains several users. These users can gain a role by assigning the role to their Group.": [
+         null,
+         ""
+      ],
+      "To allocate models to users use the %s.": [
+         null,
+         ""
+      ],
       "Expand All": [
          null,
          ""
