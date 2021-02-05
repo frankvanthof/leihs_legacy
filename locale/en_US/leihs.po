@@ -2978,5 +2978,5 @@ msgstr "Show delegation in new Admin section"
 msgid "legacy_manage_users_new_admin_section_notice"
 msgstr "Users and their roles can also be managed in the new Admin section."
 
-msgid "legacy_manage_entitlement_new_admin_section_notice"
+msgid "legacy_manage_entitlement_group_new_admin_section_notice"
 msgstr "The users and groups of this entitlement-group are managed in the new Admin section."

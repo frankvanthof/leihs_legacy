@@ -3920,17 +3920,13 @@ window.i18n.locale_data = {
          null,
          "Delegation im noie Admin-Bereich aazeige"
       ],
-      "legacy_manage_users_new_admin_section_notice_1": [
+      "legacy_manage_users_new_admin_section_notice": [
          null,
-         "Benutzer und Zuegriff chönd au im "
+         "Benutzer und Zuegriff chönd au im noie Admin-Bereich verwaltet werde."
       ],
-      "legacy_manage_users_new_admin_section_notice_2": [
+      "legacy_manage_entitlement_group_new_admin_section_notice": [
          null,
-         "noie Admin-Bereich"
-      ],
-      "legacy_manage_users_new_admin_section_notice_3": [
-         null,
-         " verwaltet werde."
+         "Die Benutzer und Gruppene vo de Gruppe-Verteilig werde im noie Admin-Bereich verwaltet."
       ]
    }
 }

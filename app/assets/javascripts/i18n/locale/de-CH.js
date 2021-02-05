@@ -4746,17 +4746,13 @@ window.i18n.locale_data = {
          null,
          "Delegation im neuem Admin-Bereich anzeigen"
       ],
-      "legacy_manage_users_new_admin_section_notice_1": [
+      "legacy_manage_users_new_admin_section_notice": [
          null,
-         "Benutzer und Zugriffsrechte können auch im "
+         "Benutzer und Zugriffsrechte können auch im neuen Admin-Bereich bearbeitet werden."
       ],
-      "legacy_manage_users_new_admin_section_notice_2": [
+      "legacy_manage_entitlement_group_new_admin_section_notice": [
          null,
-         "neuen Admin-Bereich"
-      ],
-      "legacy_manage_users_new_admin_section_notice_3": [
-         null,
-         " bearbeitet werden."
+         "Die Benutzer und Gruppen dieser Anspruchsgruppe werden im neuen Admin-Bereich verwaltet."
       ]
    }
 }
